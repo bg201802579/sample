@@ -1,0 +1,122 @@
+body{
+     
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    
+    padding: 20px 30px;
+    opacity: 60%;
+    
+}
+
+ 
+fieldset{
+    padding: 100px 20px;
+    margin-left: 10%;
+    margin-right: 20%;
+    color: white;
+     
+}
+
+p{
+    font-size: 30px;
+    color:white;
+}
+hr{
+    margin-right: 34%;
+}
+textarea{
+    border: none;
+   text-align: center;
+    opacity: 68%;
+    padding: 5% 10%;
+    color: black;
+    font-weight: 600;
+}
+.inpts{
+    padding: 10px 20px;
+    opacity: 68%;
+}
+.fst{
+    text-align: center;
+    color: #004236;
+    font-size: 40px;
+}
+.texts{
+padding: 50p 20px;
+}
+ 
+button{
+    color: white;
+    padding: 10px 20px;
+    background-color: #004236;
+    border: none;
+}
+h3{
+    color: aliceblue;
+}
+
+.clss{
+    color: #004236;
+}
+
+
+
+@media only screen and (min-device-width:325px) and (max-device-width: 980px ){
+    body{
+     
+        background-image: url(bg1.jpg);
+        margin: 2%;
+        
+    }
+    
+    .inpt{
+    
+        padding: 30px 35%;
+        opacity: 70%;
+        margin-top: 3%;
+        border:solid 1px #004236
+        font-size: 30px;
+        
+        
+    }
+    hr{
+        margin-right: 1%;
+    }
+  
+    .clss{
+        font-size: 70px;
+        color: #004236;
+    }
+    textarea{
+        border: none;
+        text-align: center;
+        opacity: 50%;
+        color: #004236;
+        padding: 15% 25%;
+        font-size: 30px;
+    }
+    
+    .inpts{
+        padding: 30px 25%;
+        opacity: 70%;
+        font-size: 30px;
+    }
+    button{
+        color: white;
+        padding: 30px 40%;
+        background-color: #004236;
+        border: none;
+        font-size: 30px;
+        margin-top: 2%;
+    }
+    .fst{
+        text-align: center;
+        color: #004236;
+        font-size: 80px;
+    }
+
+
+}
